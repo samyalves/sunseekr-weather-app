@@ -59,34 +59,35 @@
 
 //  // TO CHANGE SOLLARYO MOODS
 
-//   function printSollaryoGraphic(d){
+  function printSollaryoGraphic(d){
     
-//     // if the description includes the word "rain"
-//     if( d.indexOf('rainy') > 0 || d === 'Rainy') {
-//       return '<img src="img/rainy-sollaryo.png" alt="Rainy Character">';
+    // if the description includes the word "rain"
+    if( d.indexOf('rainy') > 0 || d === 'Rainy') {
+      return '<img src="img/rainy-sollaryo.png" alt="Rainy Character">';
     
-//     // if the description includes the word "cloud"
-//     } else if( d.indexOf('cloudy') > 0 || d === 'Cloudy' ) {
-//       return '<img src="img/cloudy-sollaryo.png" alt="Cloudy Character">';
+    // if the description includes the word "cloud"
+    } else if( d.indexOf('cloudy') > 0 || d === 'Cloudy' ) {
+      return '<img src="img/cloudy-sollaryo.png" alt="Cloudy Character">';
     
-//     // if the description includes the word "sunny"
-//     } else if( d.indexOf('sunny') > 0 || d === 'Sunny') {
-//       return '<img src="img/sunny-sollaryo.png" alt="Sunny Character">';
+    // if the description includes the word "sunny"
+    } else if( d.indexOf('sunny') > 0 || d === 'Sunny') {
+      return '<img src="img/sunny-sollaryo.png" alt="Sunny Character">';
 
-//           // if the description includes the word "stormy"
-//     } else if( d.indexOf('storm') > 0 || d === 'Storm') {
-//       return '<img src="img/stormy-sollaryo.png" alt="Storm Character">';
+          // if the description includes the word "stormy"
+    } else if( d.indexOf('storm') > 0 || d === 'Storm') {
+      return '<img src="img/stormy-sollaryo.png" alt="Storm Character">';
 
-//     } else if( d.indexOf('windy') > 0 || d === 'Windy') {
-//       return '<img src="img/windy-sollaryo.png" alt="Windy Character">';
-
-
+    } else if( d.indexOf('windy') > 0 || d === 'Windy') {
+      return '<img src="img/windy-sollaryo.png" alt="Windy Character">';
 
 
-//     // if none of those cases are true, assume it's clear
-//     } else {
-//       return '<img src="img/sollaryo-thinking.png" alt= "Sunny Character';
-//     }
+
+
+    // if none of those cases are true, assume it's clear
+    } else {
+      return '<img src="img/sollaryo-thinking.png" alt= "Sunny Character';
+    }
+  }
   
   
   
